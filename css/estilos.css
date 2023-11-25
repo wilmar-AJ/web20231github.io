@@ -41,14 +41,14 @@
 #cabeza{
     background-color:rgb(250, 250, 250);
     padding: 150px 0;
-    background-image:url(/images/image-mockups.png),url(/images/bg-intro-desktop.svg);
+    background-image:url(../images/image-mockups.png),url(../images/bg-intro-desktop.svg);
     background-position: top -120px right -130px , top -250px right -350px;
     /* background-size: cover; */
     background-repeat: no-repeat;
     overflow: hidden;
 }
 #centro{
-    background-image: url(/images/image-mockups.png);
+    background-image: url(../images/image-mockups.png);
     background-position:top -720px right -130px;
     background-repeat: no-repeat;
 }
@@ -265,7 +265,7 @@ footer #derecha p{
         margin-top: 800px;
     }
     #centro{
-        background-image: url(/images/image-mockups.png),none;
+        background-image: url(/images/image-mockups.png.),none;
     }
 }
 @media (max-width:1300px){
